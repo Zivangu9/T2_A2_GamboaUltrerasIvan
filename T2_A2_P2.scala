@@ -11,7 +11,7 @@ object Prueba{
 	def imprimirArreglo(arreglo:Array[Int]): Unit = {
 		println("Hora   Temperatura")
 		for(i<-0 until arreglo.length by 2){
-			println(" "+arreglo(i)+"      "+arreglo(i+1))
+			println(" "+arreglo(i)+"       "+arreglo(i+1))
 		}
 	}
 	def buscarTemp(arreglo:Array[Int],temp:Int): Array[Int] = {
