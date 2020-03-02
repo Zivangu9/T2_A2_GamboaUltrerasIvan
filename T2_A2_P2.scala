@@ -34,7 +34,7 @@ object Prueba{
 				cont+=1
 			}
 			else
-				arreglo(i) = obtenerTempAleatoria(25)
+				arreglo(i) = obtenerTempAleatoria(50)
 		}
 	}
 	def obtenerTempAleatoria(max:Int):Int={
